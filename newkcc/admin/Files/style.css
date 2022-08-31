@@ -1,0 +1,200 @@
+		body{
+		background-color: #ffb3d9
+			margin: 0px;
+			padding: 0px;
+		}
+		#top{
+			height: 4%;
+			top: 0px;
+			margin: 0px;
+			padding: 1px;
+			width: 99%;
+			margin-left: 3px;
+			background-color: black;
+		}
+		#pagename{
+			transition: 1s;
+			left: 15%;
+		}
+		h1{
+			font-size: 18px;
+			color: white;
+		}
+
+		#div1{
+		width:100%;
+		margin: 0;
+		}
+
+		#div1,tr,td {
+		    border: none;
+		    align-items: right;
+		    align-content: right;
+		}
+		#div1 th{
+    		background-color: black;
+    		color: white;
+		}
+		#div1 td {
+		    padding: 5px;
+		    text-align: left;
+		}
+
+		#div1 tr:nth-child(even) {
+		    background-color: white;
+		    color: black;
+
+		}
+		#div1 tr:nth-child(even):hover{
+			color: white;
+			background-color: blue;
+		}
+		#div1 tr:nth-child(odd) {
+		   background-color:#ff4da6;
+		   color: white;
+		}
+		#div1 tr:nth-child(odd):hover{
+			background-color: blue;
+		}
+		#div1 #head{
+			background-color: #1a0000;
+			color: white;
+		}
+		.dots{
+			cursor: pointer;
+			position: absolute;
+			top: 2%;
+			right: 2%;
+		}
+		.dots img{
+			cursor: pointer;
+			height: 25px;
+			width: 25px;
+		}
+		.dots img:hover{
+			background-color: #0073e6;
+			border-radius: 20px;
+		}
+		#order{
+			margin-top: 1%;
+			color: #660000;
+			margin-bottom: 2%;
+			font-size: 19px;
+		}
+		#prodinfo{
+			color: #660000;
+			margin-bottom: 2%;
+			font-size: 19px;
+		}
+		#catinfo{
+			color: #660000;
+			margin-bottom: 2%;
+			font-size: 19px;
+		}
+		#elem{
+			color: #660000;
+			margin-bottom: 2px;
+			padding: 8px;
+			font-size: 19px;
+		}
+		#settings{
+			color: white;
+			margin-top: 1%;
+		}
+		.setbtn{
+			float: right;
+			border-color: transparent;
+			background-color: #660000;
+			color: white;
+			height: 25px;
+			width: 70px;
+			border-radius: 10px;
+		}
+		#appsettings:hover{
+			background-color: red;
+		}
+		#emailsettings:hover{
+			background-color: red;
+		}
+		#usersettings:hover{
+			background-color: red;
+		}
+		#inputs{
+			height: 25px;
+			width: 200px;
+			border: none;
+			outline: none;
+			border-bottom: 1px solid #660000;
+			background:transparent;
+		}
+		#order{
+			background-color: #00a98e;
+			padding-top: 5px;
+			padding-left:3px;
+			padding-right:3px;
+			padding-bottom: 10px;
+			border-radius: 10px;
+		}
+		#prodinfo{
+			background-color: #00a98e;
+			padding-top: 5px;
+			padding-left:3px;
+			padding-right:3px;
+			padding-bottom: 10px;
+			border-radius: 10px;
+		}
+		#catinfo{
+			background-color: #00a98e;
+			padding-top: 5px;
+			padding-left:3px;
+			padding-right:3px;
+			padding-bottom: 10px;
+			border-radius: 10px;
+		}
+		#appset{
+			margin-bottom: 5%;
+			background-color: #ff3399;
+			padding: 2px 3px 10px 3px;
+			border-radius: 10px;
+		}
+		#userset{
+			background-color: #ff3399;
+			padding: 2px 3px 10px 3px;
+			border-radius: 10px;
+		}
+		#failed{
+			  position: absolute;
+			  right: 0%;
+			  bottom: 10%;
+			  color: white;
+			  background-color: #660000;
+			  width: 20%;
+			  padding: 8px;
+			  z-index: 5;
+			  -webkit-animation: fadein 1s, fadeout 1s 5s;
+			      animation: fadein 1s, fadeout 1s 5s;
+
+		}
+		.publish{
+			background-color: green;
+			text-transform: uppercase;
+			color: white;
+		}
+		.unpublish{
+			background-color: red;
+			color: white;
+			text-transform: uppercase;
+
+		}
+		#firstc{
+			margin-left: 10%;
+			float: left;
+			margin-right: 30%;
+
+		}
+		#firstc1{
+			margin-left: 10%;
+			float: left;
+			margin-right: 28%;
+
+		}

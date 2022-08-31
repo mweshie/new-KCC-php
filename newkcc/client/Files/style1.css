@@ -1,0 +1,200 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #00d2ff;
+}
+
+.sidepane {
+    z-index: 4;
+    justify-content: center;
+    top: 0px;
+    position: absolute;
+    width: 25%;
+    background-color: #00d2ff;
+    float: left;
+    height: 100%;
+    transition: 1s;
+}
+
+#smallpane {
+    justify-content: center;
+    top: 0px;
+    position: absolute;
+    width: 4%;
+    background-color: #00d2ff;
+    float: left;
+    height: 100%;
+    transition: 1s;
+}
+
+#closebtn {
+    z-index: 5;
+    position: absolute;
+    left: 90%;
+    color: red;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    padding: 1px 15px 20px 7px;
+    background-color: white;
+    top: 2%;
+    border-radius: 20px;
+}
+
+.cykeslogo {
+    left: 20%;
+    position: absolute;
+    height: 70%;
+    width: 60%;
+}
+
+.cykestitle {
+    position: absolute;
+    cursor: white;
+    font-family: "Times New Roman";
+    top: 80%;
+    font-size: 22px;
+    color: white;
+    left: 9%;
+}
+
+.btnlist {
+    position: absolute;
+    top: 41%;
+    width: 98%;
+}
+
+.btnlist li {
+    cursor: pointer;
+    justify-content: center;
+    list-style: none;
+    background-color: #660000;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin: 5px;
+    width: 100%;
+}
+
+.btnlist li:hover {
+    background-color: red;
+}
+
+.btnlist li img {
+    height: 18px;
+    width: 18px;
+    margin: 3px 15px -3px 5px;
+}
+
+.btnlist2 {
+    position: fixed;
+    top: 41%;
+    width: 4%;
+}
+
+.btnlist2 li {
+    cursor: pointer;
+    justify-content: center;
+    list-style: none;
+    background-color: #660000;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin: 5px;
+    width: 97%;
+}
+
+.btnlist2 li:hover {
+    background-color: red;
+}
+
+.btnlist2 li img {
+    height: 18px;
+    width: 18px;
+    margin: 3px 15px -3px 5px;
+}
+
+.logo {
+    left: 4px;
+    position: absolute;
+    top: 1%;
+    height: 40%;
+    width: 99%;
+    background-color: #660000;
+}
+
+#openbtn {
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    background-color: white;
+    cursor: pointer;
+    color: red;
+    width: 15px;
+    height: 15px;
+    padding: 1px 15px 20px 7px;
+    border-radius: 20px;
+}
+
+#openn {
+    visibility: hidden;
+}
+
+#openbtn:hover #openn {
+    visibility: visible;
+    z-index: 6;
+}
+
+.logo2 {
+    left: 4px;
+    position: absolute;
+    top: 1%;
+    height: 40%;
+    width: 96%;
+    background-color: #660000;
+}
+
+#sect {
+    float: right;
+}
+
+#section {
+    right: 0px;
+    transition: 1s;
+    position: absolute;
+    height: 100%;
+    left: 25%;
+    width: 75%;
+    border: none;
+}
+
+#outlog {
+    cursor: pointer;
+    top: 1%;
+    position: absolute;
+    padding: 5px 2px;
+    background-color: #660000;
+    color: white;
+    right: 10%;
+    width: 100px;
+    height: 27px;
+    z-index: 13;
+    text-align: center;
+    text-decoration: none;
+    border-color: transparent;
+    border-radius: 7px;
+}
+
+#outlog a:hover {
+    background-color: red;
+}
